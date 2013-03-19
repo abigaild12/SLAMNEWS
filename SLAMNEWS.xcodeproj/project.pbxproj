@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A534E0BC16F8A18F00DA74DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A534E0BB16F8A18F00DA74DC /* UIKit.framework */; };
+		A534E0BE16F8A18F00DA74DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A534E0BD16F8A18F00DA74DC /* Foundation.framework */; };
+		A534E0C016F8A18F00DA74DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A534E0BF16F8A18F00DA74DC /* CoreGraphics.framework */; };
+		A534E0C616F8A18F00DA74DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A534E0C416F8A18F00DA74DC /* InfoPlist.strings */; };
+		A534E0C816F8A18F00DA74DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A534E0C716F8A18F00DA74DC /* main.m */; };
+		A534E0CC16F8A18F00DA74DC /* SLAMNEWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A534E0CB16F8A18F00DA74DC /* SLAMNEWSAppDelegate.m */; };
+		A534E0CE16F8A19000DA74DC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A534E0CD16F8A19000DA74DC /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A534E0B816F8A18F00DA74DC /* SLAMNEWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLAMNEWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A534E0BB16F8A18F00DA74DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A534E0BD16F8A18F00DA74DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A534E0BF16F8A18F00DA74DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A534E0C316F8A18F00DA74DC /* SLAMNEWS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLAMNEWS-Info.plist"; sourceTree = "<group>"; };
+		A534E0C516F8A18F00DA74DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A534E0C716F8A18F00DA74DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A534E0C916F8A18F00DA74DC /* SLAMNEWS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLAMNEWS-Prefix.pch"; sourceTree = "<group>"; };
+		A534E0CA16F8A18F00DA74DC /* SLAMNEWSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAMNEWSAppDelegate.h; sourceTree = "<group>"; };
+		A534E0CB16F8A18F00DA74DC /* SLAMNEWSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAMNEWSAppDelegate.m; sourceTree = "<group>"; };
+		A534E0CD16F8A19000DA74DC /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A534E0B516F8A18E00DA74DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A534E0BC16F8A18F00DA74DC /* UIKit.framework in Frameworks */,
+				A534E0BE16F8A18F00DA74DC /* Foundation.framework in Frameworks */,
+				A534E0C016F8A18F00DA74DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A534E0AF16F8A18B00DA74DC = {
+			isa = PBXGroup;
+			children = (
+				A534E0C116F8A18F00DA74DC /* SLAMNEWS */,
+				A534E0BA16F8A18F00DA74DC /* Frameworks */,
+				A534E0B916F8A18F00DA74DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A534E0B916F8A18F00DA74DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A534E0B816F8A18F00DA74DC /* SLAMNEWS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A534E0BA16F8A18F00DA74DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A534E0BB16F8A18F00DA74DC /* UIKit.framework */,
+				A534E0BD16F8A18F00DA74DC /* Foundation.framework */,
+				A534E0BF16F8A18F00DA74DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A534E0C116F8A18F00DA74DC /* SLAMNEWS */ = {
+			isa = PBXGroup;
+			children = (
+				A534E0CA16F8A18F00DA74DC /* SLAMNEWSAppDelegate.h */,
+				A534E0CB16F8A18F00DA74DC /* SLAMNEWSAppDelegate.m */,
+				A534E0CD16F8A19000DA74DC /* MainWindow.xib */,
+				A534E0C216F8A18F00DA74DC /* Supporting Files */,
+			);
+			path = SLAMNEWS;
+			sourceTree = "<group>";
+		};
+		A534E0C216F8A18F00DA74DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A534E0C316F8A18F00DA74DC /* SLAMNEWS-Info.plist */,
+				A534E0C416F8A18F00DA74DC /* InfoPlist.strings */,
+				A534E0C716F8A18F00DA74DC /* main.m */,
+				A534E0C916F8A18F00DA74DC /* SLAMNEWS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A534E0B716F8A18E00DA74DC /* SLAMNEWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A534E0D116F8A19000DA74DC /* Build configuration list for PBXNativeTarget "SLAMNEWS" */;
+			buildPhases = (
+				A534E0B416F8A18E00DA74DC /* Sources */,
+				A534E0B516F8A18E00DA74DC /* Frameworks */,
+				A534E0B616F8A18E00DA74DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLAMNEWS;
+			productName = SLAMNEWS;
+			productReference = A534E0B816F8A18F00DA74DC /* SLAMNEWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A534E0B016F8A18B00DA74DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Abigail Diaz";
+			};
+			buildConfigurationList = A534E0B316F8A18B00DA74DC /* Build configuration list for PBXProject "SLAMNEWS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A534E0AF16F8A18B00DA74DC;
+			productRefGroup = A534E0B916F8A18F00DA74DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A534E0B716F8A18E00DA74DC /* SLAMNEWS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A534E0B616F8A18E00DA74DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A534E0C616F8A18F00DA74DC /* InfoPlist.strings in Resources */,
+				A534E0CE16F8A19000DA74DC /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A534E0B416F8A18E00DA74DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A534E0C816F8A18F00DA74DC /* main.m in Sources */,
+				A534E0CC16F8A18F00DA74DC /* SLAMNEWSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A534E0C416F8A18F00DA74DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A534E0C516F8A18F00DA74DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A534E0CF16F8A19000DA74DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A534E0D016F8A19000DA74DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A534E0D216F8A19000DA74DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLAMNEWS/SLAMNEWS-Prefix.pch";
+				INFOPLIST_FILE = "SLAMNEWS/SLAMNEWS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A534E0D316F8A19000DA74DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLAMNEWS/SLAMNEWS-Prefix.pch";
+				INFOPLIST_FILE = "SLAMNEWS/SLAMNEWS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A534E0B316F8A18B00DA74DC /* Build configuration list for PBXProject "SLAMNEWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A534E0CF16F8A19000DA74DC /* Debug */,
+				A534E0D016F8A19000DA74DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A534E0D116F8A19000DA74DC /* Build configuration list for PBXNativeTarget "SLAMNEWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A534E0D216F8A19000DA74DC /* Debug */,
+				A534E0D316F8A19000DA74DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A534E0B016F8A18B00DA74DC /* Project object */;
+}
