@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SLAMNEWSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface SLAMNEWSAppDelegate : NSObject <UIApplicationDelegate>
 
-@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 
 @end
