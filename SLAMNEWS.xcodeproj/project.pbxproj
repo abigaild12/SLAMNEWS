@@ -15,7 +15,7 @@
 		A52120A316FBA78700735F51 /* ArticleCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A52120A216FBA78700735F51 /* ArticleCell_iPhone.m */; };
 		A52120A616FBAB3500735F51 /* ArticleTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A52120A516FBAB3500735F51 /* ArticleTitleLabel.m */; };
 		A52120A916FBE00100735F51 /* ArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A52120A816FBE00100735F51 /* ArticleCell.m */; };
-		A52120AD16FC059100735F51 /* WetBanana.png in Resources */ = {isa = PBXBuildFile; fileRef = A52120AC16FC058F00735F51 /* WetBanana.png */; };
+		A52120AD16FC059100735F51 /* SlamLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A52120AC16FC058F00735F51 /* SlamLogo.png */; };
 		A52120AF16FC06C800735F51 /* MistyBigBen.png in Resources */ = {isa = PBXBuildFile; fileRef = A52120AE16FC06C400735F51 /* MistyBigBen.png */; };
 		A534E0BC16F8A18F00DA74DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A534E0BB16F8A18F00DA74DC /* UIKit.framework */; };
 		A534E0BE16F8A18F00DA74DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A534E0BD16F8A18F00DA74DC /* Foundation.framework */; };
@@ -118,7 +118,7 @@
 		A52120A516FBAB3500735F51 /* ArticleTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTitleLabel.m; sourceTree = "<group>"; };
 		A52120A716FBDFFA00735F51 /* ArticleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleCell.h; sourceTree = "<group>"; };
 		A52120A816FBE00100735F51 /* ArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleCell.m; sourceTree = "<group>"; };
-		A52120AC16FC058F00735F51 /* WetBanana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WetBanana.png; sourceTree = "<group>"; };
+		A52120AC16FC058F00735F51 /* SlamLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlamLogo.png; sourceTree = "<group>"; };
 		A52120AE16FC06C400735F51 /* MistyBigBen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MistyBigBen.png; sourceTree = "<group>"; };
 		A534E0B816F8A18F00DA74DC /* SLAMNEWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLAMNEWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A534E0BB16F8A18F00DA74DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -379,7 +379,7 @@
 			isa = PBXGroup;
 			children = (
 				A52120AE16FC06C400735F51 /* MistyBigBen.png */,
-				A52120AC16FC058F00735F51 /* WetBanana.png */,
+				A52120AC16FC058F00735F51 /* SlamLogo.png */,
 				A57F6C7B16F972CA00A769D4 /* AppleMusic.png */,
 				A57F6C7C16F972CA00A769D4 /* Aviation.png */,
 				A57F6C7D16F972CA00A769D4 /* Balloons.png */,
@@ -582,7 +582,7 @@
 				A521208F16FAA55000735F51 /* icon.png in Resources */,
 				A521209116FAA5B900735F51 /* icon-72.png in Resources */,
 				A521209316FAB32600735F51 /* Navbar.png in Resources */,
-				A52120AD16FC059100735F51 /* WetBanana.png in Resources */,
+				A52120AD16FC059100735F51 /* SlamLogo.png in Resources */,
 				A52120AF16FC06C800735F51 /* MistyBigBen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
